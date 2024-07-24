@@ -1,0 +1,129 @@
+body {
+    background-image: url(india3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position-y: top ;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:transparent;
+    color: black;
+    padding: 20px;
+}
+.nav2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large;
+    color: black;
+    margin-right: 300px;
+    margin-left: 20px;
+}
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#book
+{
+    float:right;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    border-radius: 8px;
+    width:auto;
+    height: 35px;
+    box-shadow:0px 0px 0px 5px black;
+    border: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.nav{
+    text-decoration: none;
+}
+#main-content {
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color:white;
+    border-radius: 25px 25px 25px 25px;
+    opacity: .8;
+}
+
+div h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    text-align: center;
+    color:black;
+    text-decoration:underline;
+}
+
+p {
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:yellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover{
+    box-shadow: 0px 0px 10px rgb(84, 98, 249);    
+}
+
+.cta-button:active{
+    background-color: #070184;
+}
+
+footer {
+    background-color:transparent;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.nav:hover{
+    background-color:purple;
+    font-size: large;
+    border-radius: 20% 20% 20% 20%;
+    padding: 3px;
+}
+label{
+    font-weight: bold;
+}
+td{
+    padding-left: 80px;
+    padding-right: 70px;
+}
+#book:active{
+    background-color:tomato;
+}
+select{
+    border-radius: 2cm;
+    width: 150px;
+    height: 25px;
+}

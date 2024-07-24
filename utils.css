@@ -1,0 +1,36 @@
+
+@media only screen and (max-width: 768px) {
+    .nav1 {
+        margin-right: 0;
+    }
+    nav ul {
+        display: none;
+        position: absolute;
+        background-color: #ff00f2;
+        width: 100%;
+        text-align: center;
+        top: 60px;
+        left: 0;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    nav ul li:first-child {
+        margin-top: 20px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul.active {
+        display: block;
+    }
+    #book {
+        float: none;
+        margin: 10px auto;
+    }
+    td{
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+}
